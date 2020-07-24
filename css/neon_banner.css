@@ -1,0 +1,57 @@
+/*
+    Здесь только содержимое блока - неонка
+    Сам блок задается right_colon в style.css
+*/
+.sign-wrap-3 {
+   /* background: #337AB7;*/
+    text-align: center;
+    /*  padding: 60px 20px; */
+    padding: 5px;
+    width: 148px;
+    height: 250px;
+}
+.neon_banner{
+    padding-top: 15px;
+}
+.sign-wrap-3 .sign_word {
+    font-size: 20px;
+    font-weight: bold;
+    /*    line-height: 6px;  */
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    animation: neon-3 5s steps(1, start) infinite reverse;
+}
+@keyframes neon-3 {
+    0%{
+        color: #0b3960;
+        text-shadow: 0 0 7px #0b3960, 0 0 8px #0b3960;
+    }
+    80%{
+        color: #fff;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    81%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    82%{color: #0b3960;
+        text-shadow: 0 0 7px #0b3960, 0 0 8px #0b3960;
+    }
+    83%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    84%{
+        color: #0b3960;
+        text-shadow: 0 0 7px #0b3960, 0 0 8px #0b3960;
+    }
+    85%{
+        color: #E1F5FE;
+        text-shadow: 0 0 6px #fff,0 0 10px #fff,0 0 50px #79a7fc;
+    }
+    100%{
+        color: #0b3960;
+        text-shadow: 0 0 7px #0b3960,0 0 8px #0b3960;
+    }
+}
